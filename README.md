@@ -1,7 +1,7 @@
 # How Important is Importance Sampling for Deep Budgeted training?
 
-## Official Pytorch implementation of our BMVC 2021 paper *How Important is Importance Sampling for Deep Budgeted training?*
-Paper link: [arXiv](https://arxiv.org/abs/2110.14283)
+Official Pytorch implementation of our BMVC 2021 paper [*How Important is Importance Sampling for Deep Budgeted training?*](https://arxiv.org/abs/2110.14283)
+<!-- Paper link: [arXiv](https://arxiv.org/abs/2110.14283) -->
 
 ![IS4BT](IS4BT.png)
 
@@ -51,4 +51,4 @@ We would like to thank [1] [SelectiveBackprop](https://github.com/angelajiang/Se
  } 
 ```
 
-Eric Arazo, Diego Ortego, Paul Albert, Noel E. O'Connor, and Kevin McGuinness, "How Important is Importance Sampling for Deep Budgeted training?", in The 32<sup>nd</sup> British Machine Vision Conference (BMVC), 2021
+<!-- Eric Arazo, Diego Ortego, Paul Albert, Noel E. O'Connor, and Kevin McGuinness, "How Important is Importance Sampling for Deep Budgeted training?", in The 32<sup>nd</sup> British Machine Vision Conference (BMVC), 2021 -->
