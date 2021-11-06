@@ -18,7 +18,7 @@ The most relevant are the following:
 * --augmentation: data augmentation technique (standard, ricap, mixup, or randaugment)
 
 ### Datasets
-The file [example_scripts.sh](https://github.com/EricArazo/ImportanceSampling/blob/master/example_scripts.sh) contain examples of how to run the experiments in each of the datasets and with different data augmentation techniques. All the datasets are automatically downloaded, except mini-ImageNet that has to be manually created and placedd in the foldder ```./data``` (follow this [link](https://github.com/gitabcworld/FewShotLearning/tree/master/utils) to download and create mini-ImageNet).
+The file [example_scripts.sh](https://github.com/EricArazo/ImportanceSampling/blob/master/example_scripts.sh) contain examples of how to run the experiments in each of the datasets and with different data augmentation techniques. All the datasets are automatically downloaded, except mini-ImageNet that has to be manually created and placed in the folder ```./data``` (follow this [link](https://github.com/gitabcworld/FewShotLearning/tree/master/utils) to download and create mini-ImageNet).
 
 ### Requirements
 These are the most relevant dependencies to replicate our experiments:
@@ -44,7 +44,7 @@ We would like to thank [1] [SelectiveBackprop](https://github.com/angelajiang/Se
 
 ```
  @inproceedings{2021_BMVC_importanceSampling,
-  title = {title},
+  title = {How Important is Importance Sampling for Deep Budgeted training?},
   author = {Eric Arazo and Diego Ortego and Paul Albert and Noel E O'Connor and Kevin McGuinness},
   booktitle={British Machine Vision Conference (BMVC)},
   year={2021},
