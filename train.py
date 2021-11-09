@@ -119,14 +119,14 @@ def main(args):
         it_per_epoch = len(train_loader)
 
         if args.scheduler_type == "linear":
-            lr_path = '../../lr_file_lin.json'
+            lr_path = './lr_file_lin.json'
             lr_values = np.linspace(args.lr, 1e-6, args.epoch*it_per_epoch)
             lr_steps = np.asarray(range(0,args.epoch*it_per_epoch))*args.batch_size
             lr_dict = {}
             for i, stp in enumerate(lr_steps):
                 lr_dict[str(stp)] = lr_values[i]
         elif args.scheduler_type == "standard":
-            lr_path = '../../lr_file_step.json'
+            lr_path = './lr_file_step.json'
             lr_dict = {}
             lr_dict[str(0)] = args.lr
             lr_dict[str(args.M[0]*it_per_epoch*args.batch_size)] = args.lr/10
